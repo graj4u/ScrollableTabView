@@ -1,0 +1,280 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B97F14F415C0052400527BB6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B97F14F315C0052400527BB6 /* UIKit.framework */; };
+		B97F14F615C0052400527BB6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B97F14F515C0052400527BB6 /* Foundation.framework */; };
+		B97F14F815C0052400527BB6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B97F14F715C0052400527BB6 /* CoreGraphics.framework */; };
+		B97F14FE15C0052400527BB6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B97F14FC15C0052400527BB6 /* InfoPlist.strings */; };
+		B97F150015C0052400527BB6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B97F14FF15C0052400527BB6 /* main.m */; };
+		B97F150415C0052400527BB6 /* GRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B97F150315C0052400527BB6 /* GRAppDelegate.m */; };
+		B97F150715C0052400527BB6 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B97F150515C0052400527BB6 /* MainStoryboard.storyboard */; };
+		B97F150A15C0052400527BB6 /* GRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B97F150915C0052400527BB6 /* GRViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B97F14EF15C0052400527BB6 /* ScrollableTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollableTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B97F14F315C0052400527BB6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B97F14F515C0052400527BB6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B97F14F715C0052400527BB6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B97F14FB15C0052400527BB6 /* ScrollableTabBar-Info.plist */ = {isa = PBXFileReference; path = "ScrollableTabBar-Info.plist"; sourceTree = "<group>"; };
+		B97F14FD15C0052400527BB6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B97F14FF15C0052400527BB6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B97F150115C0052400527BB6 /* ScrollableTabBar-Prefix.pch */ = {isa = PBXFileReference; path = "ScrollableTabBar-Prefix.pch"; sourceTree = "<group>"; };
+		B97F150215C0052400527BB6 /* GRAppDelegate.h */ = {isa = PBXFileReference; path = GRAppDelegate.h; sourceTree = "<group>"; };
+		B97F150315C0052400527BB6 /* GRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GRAppDelegate.m; sourceTree = "<group>"; };
+		B97F150615C0052400527BB6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		B97F150815C0052400527BB6 /* GRViewController.h */ = {isa = PBXFileReference; path = GRViewController.h; sourceTree = "<group>"; };
+		B97F150915C0052400527BB6 /* GRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GRViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B97F14EC15C0052400527BB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B97F14F415C0052400527BB6 /* UIKit.framework in Frameworks */,
+				B97F14F615C0052400527BB6 /* Foundation.framework in Frameworks */,
+				B97F14F815C0052400527BB6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B97F14E415C0052400527BB6 = {
+			isa = PBXGroup;
+			children = (
+				B97F14F915C0052400527BB6 /* ScrollableTabBar */,
+				B97F14F215C0052400527BB6 /* Frameworks */,
+				B97F14F015C0052400527BB6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B97F14F015C0052400527BB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B97F14EF15C0052400527BB6 /* ScrollableTabBar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B97F14F215C0052400527BB6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B97F14F315C0052400527BB6 /* UIKit.framework */,
+				B97F14F515C0052400527BB6 /* Foundation.framework */,
+				B97F14F715C0052400527BB6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B97F14F915C0052400527BB6 /* ScrollableTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				B97F150215C0052400527BB6 /* GRAppDelegate.h */,
+				B97F150315C0052400527BB6 /* GRAppDelegate.m */,
+				B97F150515C0052400527BB6 /* MainStoryboard.storyboard */,
+				B97F150815C0052400527BB6 /* GRViewController.h */,
+				B97F150915C0052400527BB6 /* GRViewController.m */,
+				B97F14FA15C0052400527BB6 /* Supporting Files */,
+			);
+			path = ScrollableTabBar;
+			sourceTree = "<group>";
+		};
+		B97F14FA15C0052400527BB6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B97F14FB15C0052400527BB6 /* ScrollableTabBar-Info.plist */,
+				B97F14FC15C0052400527BB6 /* InfoPlist.strings */,
+				B97F14FF15C0052400527BB6 /* main.m */,
+				B97F150115C0052400527BB6 /* ScrollableTabBar-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B97F14EE15C0052400527BB6 /* ScrollableTabBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B97F150D15C0052400527BB6 /* Build configuration list for PBXNativeTarget "ScrollableTabBar" */;
+			buildPhases = (
+				B97F14EB15C0052400527BB6 /* Sources */,
+				B97F14EC15C0052400527BB6 /* Frameworks */,
+				B97F14ED15C0052400527BB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScrollableTabBar;
+			productName = ScrollableTabBar;
+			productReference = B97F14EF15C0052400527BB6 /* ScrollableTabBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B97F14E615C0052400527BB6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GR;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = B97F14E915C0052400527BB6 /* Build configuration list for PBXProject "ScrollableTabBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B97F14E415C0052400527BB6;
+			productRefGroup = B97F14F015C0052400527BB6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B97F14EE15C0052400527BB6 /* ScrollableTabBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B97F14ED15C0052400527BB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B97F14FE15C0052400527BB6 /* InfoPlist.strings in Resources */,
+				B97F150715C0052400527BB6 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B97F14EB15C0052400527BB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B97F150015C0052400527BB6 /* main.m in Sources */,
+				B97F150415C0052400527BB6 /* GRAppDelegate.m in Sources */,
+				B97F150A15C0052400527BB6 /* GRViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B97F14FC15C0052400527BB6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B97F14FD15C0052400527BB6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B97F150515C0052400527BB6 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B97F150615C0052400527BB6 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B97F150B15C0052400527BB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B97F150C15C0052400527BB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B97F150E15C0052400527BB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScrollableTabBar/ScrollableTabBar-Prefix.pch";
+				INFOPLIST_FILE = "ScrollableTabBar/ScrollableTabBar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B97F150F15C0052400527BB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScrollableTabBar/ScrollableTabBar-Prefix.pch";
+				INFOPLIST_FILE = "ScrollableTabBar/ScrollableTabBar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B97F14E915C0052400527BB6 /* Build configuration list for PBXProject "ScrollableTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B97F150B15C0052400527BB6 /* Debug */,
+				B97F150C15C0052400527BB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B97F150D15C0052400527BB6 /* Build configuration list for PBXNativeTarget "ScrollableTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B97F150E15C0052400527BB6 /* Debug */,
+				B97F150F15C0052400527BB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B97F14E615C0052400527BB6 /* Project object */;
+}
