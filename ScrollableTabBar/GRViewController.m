@@ -51,6 +51,7 @@
 }
 
 
+
 - (void)changeStyle:(id)sender
 {
 	switch (_tabBar.style) {
@@ -68,10 +69,14 @@
 	}
 }
 
+
+
 - (void)scrollableTabBar:(JSScrollableTabBar *)tabBar didSelectTabAtIndex:(NSInteger)index
 {
 	[_label setText:[NSString stringWithFormat:@"Selected tab: %d", index]];
 }
+
+
 
 
 - (void)viewDidUnload
@@ -79,6 +84,8 @@
     [super viewDidUnload];
     // Release any retained subviews of the main view.
 }
+
+
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
