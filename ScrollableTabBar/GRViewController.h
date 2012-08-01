@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "JSScrollableTabBar.h"
 
-@interface GRViewController : UIViewController
-
+@interface GRViewController : UIViewController <JSScrollableTabBarDelegate>
+{
+    JSScrollableTabBar *_tabBar;
+    UILabel *_label;
+}
 @end

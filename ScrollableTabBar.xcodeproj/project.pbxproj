@@ -15,6 +15,12 @@
 		B97F150415C0052400527BB6 /* GRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B97F150315C0052400527BB6 /* GRAppDelegate.m */; };
 		B97F150715C0052400527BB6 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B97F150515C0052400527BB6 /* MainStoryboard.storyboard */; };
 		B97F150A15C0052400527BB6 /* GRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B97F150915C0052400527BB6 /* GRViewController.m */; };
+		B97F152315C005C000527BB6 /* JSScrollableTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B97F151B15C005C000527BB6 /* JSScrollableTabBar.m */; };
+		B97F152415C005C000527BB6 /* JSTabItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B97F151D15C005C000527BB6 /* JSTabItem.m */; };
+		B97F152515C005C000527BB6 /* JSTabButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B97F151F15C005C000527BB6 /* JSTabButton.m */; };
+		B97F152615C005C000527BB6 /* UIImage+JSRetinaAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B97F152115C005C000527BB6 /* UIImage+JSRetinaAdditions.m */; };
+		B97F152715C005C000527BB6 /* images.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B97F152215C005C000527BB6 /* images.bundle */; };
+		B97F152915C005D600527BB6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B97F152815C005D600527BB6 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +28,25 @@
 		B97F14F315C0052400527BB6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B97F14F515C0052400527BB6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B97F14F715C0052400527BB6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		B97F14FB15C0052400527BB6 /* ScrollableTabBar-Info.plist */ = {isa = PBXFileReference; path = "ScrollableTabBar-Info.plist"; sourceTree = "<group>"; };
+		B97F14FB15C0052400527BB6 /* ScrollableTabBar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScrollableTabBar-Info.plist"; sourceTree = "<group>"; };
 		B97F14FD15C0052400527BB6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B97F14FF15C0052400527BB6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B97F150115C0052400527BB6 /* ScrollableTabBar-Prefix.pch */ = {isa = PBXFileReference; path = "ScrollableTabBar-Prefix.pch"; sourceTree = "<group>"; };
-		B97F150215C0052400527BB6 /* GRAppDelegate.h */ = {isa = PBXFileReference; path = GRAppDelegate.h; sourceTree = "<group>"; };
+		B97F150115C0052400527BB6 /* ScrollableTabBar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ScrollableTabBar-Prefix.pch"; sourceTree = "<group>"; };
+		B97F150215C0052400527BB6 /* GRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GRAppDelegate.h; sourceTree = "<group>"; };
 		B97F150315C0052400527BB6 /* GRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GRAppDelegate.m; sourceTree = "<group>"; };
 		B97F150615C0052400527BB6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		B97F150815C0052400527BB6 /* GRViewController.h */ = {isa = PBXFileReference; path = GRViewController.h; sourceTree = "<group>"; };
+		B97F150815C0052400527BB6 /* GRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GRViewController.h; sourceTree = "<group>"; };
 		B97F150915C0052400527BB6 /* GRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GRViewController.m; sourceTree = "<group>"; };
+		B97F151A15C005C000527BB6 /* JSScrollableTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSScrollableTabBar.h; sourceTree = "<group>"; };
+		B97F151B15C005C000527BB6 /* JSScrollableTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSScrollableTabBar.m; sourceTree = "<group>"; };
+		B97F151C15C005C000527BB6 /* JSTabItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSTabItem.h; sourceTree = "<group>"; };
+		B97F151D15C005C000527BB6 /* JSTabItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSTabItem.m; sourceTree = "<group>"; };
+		B97F151E15C005C000527BB6 /* JSTabButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSTabButton.h; sourceTree = "<group>"; };
+		B97F151F15C005C000527BB6 /* JSTabButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSTabButton.m; sourceTree = "<group>"; };
+		B97F152015C005C000527BB6 /* UIImage+JSRetinaAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+JSRetinaAdditions.h"; sourceTree = "<group>"; };
+		B97F152115C005C000527BB6 /* UIImage+JSRetinaAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JSRetinaAdditions.m"; sourceTree = "<group>"; };
+		B97F152215C005C000527BB6 /* images.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = images.bundle; sourceTree = "<group>"; };
+		B97F152815C005D600527BB6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B97F152915C005D600527BB6 /* QuartzCore.framework in Frameworks */,
 				B97F14F415C0052400527BB6 /* UIKit.framework in Frameworks */,
 				B97F14F615C0052400527BB6 /* Foundation.framework in Frameworks */,
 				B97F14F815C0052400527BB6 /* CoreGraphics.framework in Frameworks */,
@@ -67,6 +84,7 @@
 		B97F14F215C0052400527BB6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B97F152815C005D600527BB6 /* QuartzCore.framework */,
 				B97F14F315C0052400527BB6 /* UIKit.framework */,
 				B97F14F515C0052400527BB6 /* Foundation.framework */,
 				B97F14F715C0052400527BB6 /* CoreGraphics.framework */,
@@ -77,6 +95,7 @@
 		B97F14F915C0052400527BB6 /* ScrollableTabBar */ = {
 			isa = PBXGroup;
 			children = (
+				B97F151015C0052D00527BB6 /* ScrollableTabBar API */,
 				B97F150215C0052400527BB6 /* GRAppDelegate.h */,
 				B97F150315C0052400527BB6 /* GRAppDelegate.m */,
 				B97F150515C0052400527BB6 /* MainStoryboard.storyboard */,
@@ -96,6 +115,22 @@
 				B97F150115C0052400527BB6 /* ScrollableTabBar-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B97F151015C0052D00527BB6 /* ScrollableTabBar API */ = {
+			isa = PBXGroup;
+			children = (
+				B97F151A15C005C000527BB6 /* JSScrollableTabBar.h */,
+				B97F151B15C005C000527BB6 /* JSScrollableTabBar.m */,
+				B97F151C15C005C000527BB6 /* JSTabItem.h */,
+				B97F151D15C005C000527BB6 /* JSTabItem.m */,
+				B97F151E15C005C000527BB6 /* JSTabButton.h */,
+				B97F151F15C005C000527BB6 /* JSTabButton.m */,
+				B97F152015C005C000527BB6 /* UIImage+JSRetinaAdditions.h */,
+				B97F152115C005C000527BB6 /* UIImage+JSRetinaAdditions.m */,
+				B97F152215C005C000527BB6 /* images.bundle */,
+			);
+			name = "ScrollableTabBar API";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +186,7 @@
 			files = (
 				B97F14FE15C0052400527BB6 /* InfoPlist.strings in Resources */,
 				B97F150715C0052400527BB6 /* MainStoryboard.storyboard in Resources */,
+				B97F152715C005C000527BB6 /* images.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +200,10 @@
 				B97F150015C0052400527BB6 /* main.m in Sources */,
 				B97F150415C0052400527BB6 /* GRAppDelegate.m in Sources */,
 				B97F150A15C0052400527BB6 /* GRViewController.m in Sources */,
+				B97F152315C005C000527BB6 /* JSScrollableTabBar.m in Sources */,
+				B97F152415C005C000527BB6 /* JSTabItem.m in Sources */,
+				B97F152515C005C000527BB6 /* JSTabButton.m in Sources */,
+				B97F152615C005C000527BB6 /* UIImage+JSRetinaAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +313,7 @@
 				B97F150F15C0052400527BB6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
