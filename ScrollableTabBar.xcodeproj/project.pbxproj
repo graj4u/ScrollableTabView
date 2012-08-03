@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B9227EB915CB9515005216A8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B9227EB815CB9515005216A8 /* README.md */; };
 		B97F14F415C0052400527BB6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B97F14F315C0052400527BB6 /* UIKit.framework */; };
 		B97F14F615C0052400527BB6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B97F14F515C0052400527BB6 /* Foundation.framework */; };
 		B97F14F815C0052400527BB6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B97F14F715C0052400527BB6 /* CoreGraphics.framework */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B9227EB815CB9515005216A8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		B97F14EF15C0052400527BB6 /* ScrollableTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollableTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B97F14F315C0052400527BB6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B97F14F515C0052400527BB6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -95,6 +97,7 @@
 		B97F14F915C0052400527BB6 /* ScrollableTabBar */ = {
 			isa = PBXGroup;
 			children = (
+				B9227EB815CB9515005216A8 /* README.md */,
 				B97F151015C0052D00527BB6 /* ScrollableTabBar API */,
 				B97F150215C0052400527BB6 /* GRAppDelegate.h */,
 				B97F150315C0052400527BB6 /* GRAppDelegate.m */,
@@ -187,6 +190,7 @@
 				B97F14FE15C0052400527BB6 /* InfoPlist.strings in Resources */,
 				B97F150715C0052400527BB6 /* MainStoryboard.storyboard in Resources */,
 				B97F152715C005C000527BB6 /* images.bundle in Resources */,
+				B9227EB915CB9515005216A8 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

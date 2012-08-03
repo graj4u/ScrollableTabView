@@ -1,0 +1,1 @@
+This is iPhone application which will convert Tab bar buttons with scrolabale property just like NDTV and other app
